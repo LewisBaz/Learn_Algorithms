@@ -5,6 +5,7 @@ import (
 	binarysearch "main/binary_search"
 	digitsalgs "main/digits_algs"
 	oneway "main/linked_lists/one_way"
+	hascycle "main/linked_lists/one_way/has_cycle"
 	"main/simple"
 )
 
@@ -26,6 +27,13 @@ func main() {
 	oneway.Show()
 
 	fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
+
+	var node = &hascycle.ListNode{Val: 1}
+	var nextNode = &hascycle.ListNode{Val: 1}
+	node.Next = nextNode
+	nextNode.Next = node
+	var hasC = hascycle.HasCycle(node)
+	fmt.Println(hasC)
 }
 
 func createSlice(count int) []int {
