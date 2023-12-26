@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	binarysearch "main/binary_search"
 	digitsalgs "main/digits_algs"
 	oneway "main/linked_lists/one_way"
 	"main/simple"
@@ -23,6 +24,8 @@ func main() {
 	fmt.Println(digitsalgs.Poker_card_giver(5))
 
 	oneway.Show()
+
+	fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
 }
 
 func createSlice(count int) []int {
