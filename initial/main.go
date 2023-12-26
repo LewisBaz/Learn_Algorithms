@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	digitsalgs "main/digits_algs"
+	oneway "main/linked_lists/one_way"
 	"main/simple"
 )
 
@@ -20,6 +21,8 @@ func main() {
 	fmt.Println(digitsalgs.EqualValuesDice())
 	fmt.Println(digitsalgs.ChooseRandomFrom(thousandSlice, 5))
 	fmt.Println(digitsalgs.Poker_card_giver(5))
+
+	oneway.Show()
 }
 
 func createSlice(count int) []int {
