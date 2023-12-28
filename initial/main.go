@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	binarysearch "main/binary_search"
-	digitsalgs "main/digits_algs"
-	oneway "main/linked_lists/one_way"
+	"main/arrays"
+	// binarysearch "main/binary_search"
+	// digitsalgs "main/digits_algs"
+	// oneway "main/linked_lists/one_way"
 	hascycle "main/linked_lists/one_way/has_cycle"
-	"main/simple"
+	// "main/simple"
 )
 
 var (
@@ -16,24 +17,21 @@ var (
 
 
 func main() {
-	fmt.Println(simple.GCD(4851, 3003))
-	fmt.Println(simple.Randomize_array(hundredSlice))
+	// fmt.Println(simple.GCD(4851, 3003))
+	// fmt.Println(simple.Randomize_array(hundredSlice))
 
-	fmt.Println(digitsalgs.DiceThatTossACoin())
-	fmt.Println(digitsalgs.EqualValuesDice())
-	fmt.Println(digitsalgs.ChooseRandomFrom(thousandSlice, 5))
-	fmt.Println(digitsalgs.Poker_card_giver(5))
+	// fmt.Println(digitsalgs.DiceThatTossACoin())
+	// fmt.Println(digitsalgs.EqualValuesDice())
+	// fmt.Println(digitsalgs.ChooseRandomFrom(thousandSlice, 5))
+	// fmt.Println(digitsalgs.Poker_card_giver(5))
 
-	oneway.Show()
+	// oneway.Show()
 
-	fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
-
-	var node = &hascycle.ListNode{Val: 1}
-	var nextNode = &hascycle.ListNode{Val: 1}
-	node.Next = nextNode
-	nextNode.Next = node
-	var hasC = hascycle.HasCycle(node)
-	fmt.Println(hasC)
+	// fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
+	// nodeCycle()
+	
+	arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
+	arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
 }
 
 func createSlice(count int) []int {
@@ -42,4 +40,13 @@ func createSlice(count int) []int {
 		mySlice[i] = i
 	}
 	return mySlice
+}
+
+func nodeCycle() {
+	var node = &hascycle.ListNode{Val: 1}
+	var nextNode = &hascycle.ListNode{Val: 1}
+	node.Next = nextNode
+	nextNode.Next = node
+	var hasC = hascycle.HasCycle(node)
+	fmt.Println(hasC)
 }
