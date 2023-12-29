@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"main/arrays"
+	stringsf "main/strings"
+
 	// binarysearch "main/binary_search"
 	// digitsalgs "main/digits_algs"
 	// oneway "main/linked_lists/one_way"
@@ -32,6 +34,8 @@ func main() {
 	
 	arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
+
+	fmt.Println(stringsf.LengthOfLastWord("a "))
 }
 
 func createSlice(count int) []int {
