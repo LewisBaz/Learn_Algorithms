@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"main/arrays"
-	stringsf "main/strings"
+	// "main/arrays"
+	// stringsf "main/strings"
 
 	// binarysearch "main/binary_search"
-	// digitsalgs "main/digits_algs"
+	digitsalgs "main/digits_algs"
 	// oneway "main/linked_lists/one_way"
 	hascycle "main/linked_lists/one_way/has_cycle"
 	// "main/simple"
@@ -32,10 +32,13 @@ func main() {
 	// fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
 	// nodeCycle()
 	
-	arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
-	arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
+	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
+	// arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
 
-	fmt.Println(stringsf.LengthOfLastWord("a "))
+	// fmt.Println(stringsf.LengthOfLastWord("a "))
+
+	digitsalgs.IntToRoman(2745)
+	digitsalgs.RomanToInt("LVIII")
 }
 
 func createSlice(count int) []int {
