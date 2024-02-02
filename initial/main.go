@@ -37,8 +37,10 @@ func main() {
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
-	digitsalgs.IntToRoman(2745)
-	digitsalgs.RomanToInt("LVIII")
+	// digitsalgs.IntToRoman(2745)
+	// digitsalgs.RomanToInt("LVIII")
+	res := digitsalgs.IsPalindrome(0)
+	fmt.Println(res)
 }
 
 func createSlice(count int) []int {
