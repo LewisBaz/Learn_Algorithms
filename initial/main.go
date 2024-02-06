@@ -6,7 +6,7 @@ import (
 	// stringsf "main/strings"
 
 	// binarysearch "main/binary_search"
-	digitsalgs "main/digits_algs"
+	// digitsalgs "main/digits_algs"
 	// oneway "main/linked_lists/one_way"
 	hascycle "main/linked_lists/one_way/has_cycle"
 	// "main/simple"
@@ -30,7 +30,7 @@ func main() {
 	// oneway.Show()
 
 	// fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
-	// nodeCycle()
+	nodeCycle()
 	
 	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	// arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
@@ -41,7 +41,7 @@ func main() {
 	// digitsalgs.RomanToInt("LVIII")
 	// res := digitsalgs.IsPalindrome(0)
 	// fmt.Println(digitsalgs.MyPow(-1, 2147483647))
-	fmt.Println(digitsalgs.MyPow(1.0000000000001, -2147483648))
+	// fmt.Println(digitsalgs.MyPow(1.0000000000001, -2147483648))
 	// fmt.Println(digitsalgs.MyPow(2, 12))
 }
 
@@ -59,5 +59,7 @@ func nodeCycle() {
 	node.Next = nextNode
 	nextNode.Next = node
 	var hasC = hascycle.HasCycle(node)
+	var head = hascycle.DetectCycle(node)
 	fmt.Println(hasC)
+	fmt.Println(head)
 }

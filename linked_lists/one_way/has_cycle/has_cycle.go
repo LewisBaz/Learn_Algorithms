@@ -17,3 +17,16 @@ func HasCycle(head *ListNode) bool {
     }
     return false
 }
+
+func DetectCycle(head *ListNode) *ListNode {
+    used := make(map[*ListNode]*ListNode)
+    for head != nil && head.Next != nil {
+        node := used[head]
+        if node == head {
+            return node
+        }
+        used[head] = head
+        head = head.Next
+    }
+    return nil
+}
