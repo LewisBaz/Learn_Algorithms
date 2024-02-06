@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	// "main/arrays"
-	// stringsf "main/strings"
+	stringsf "main/strings"
 
 	// binarysearch "main/binary_search"
 	// digitsalgs "main/digits_algs"
@@ -13,10 +13,9 @@ import (
 )
 
 var (
-	hundredSlice = createSlice(100)
+	hundredSlice  = createSlice(100)
 	thousandSlice = createSlice(1000)
 )
-
 
 func main() {
 	// fmt.Println(simple.GCD(4851, 3003))
@@ -30,8 +29,8 @@ func main() {
 	// oneway.Show()
 
 	// fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 3))
-	nodeCycle()
-	
+	// nodeCycle()
+
 	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	// arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
 
@@ -43,6 +42,8 @@ func main() {
 	// fmt.Println(digitsalgs.MyPow(-1, 2147483647))
 	// fmt.Println(digitsalgs.MyPow(1.0000000000001, -2147483648))
 	// fmt.Println(digitsalgs.MyPow(2, 12))
+
+	fmt.Println(stringsf.IsIsomorphic("badc", "baba"))
 }
 
 func createSlice(count int) []int {
