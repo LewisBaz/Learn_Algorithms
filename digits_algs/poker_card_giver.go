@@ -8,7 +8,7 @@ import (
 
 func Poker_card_giver(numberOfPlayers int) ([][]string, error) {
 	if numberOfPlayers > 8 {
-		return nil, errors.New("Too Many Players")
+		return nil, errors.New("too many players")
 	}
 
 	hearts := []string{}

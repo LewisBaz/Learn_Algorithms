@@ -39,8 +39,10 @@ func main() {
 
 	// digitsalgs.IntToRoman(2745)
 	// digitsalgs.RomanToInt("LVIII")
-	res := digitsalgs.IsPalindrome(0)
-	fmt.Println(res)
+	// res := digitsalgs.IsPalindrome(0)
+	// fmt.Println(digitsalgs.MyPow(-1, 2147483647))
+	fmt.Println(digitsalgs.MyPow(1.0000000000001, -2147483648))
+	// fmt.Println(digitsalgs.MyPow(2, 12))
 }
 
 func createSlice(count int) []int {
