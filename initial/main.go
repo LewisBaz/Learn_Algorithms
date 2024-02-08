@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	// "main/arrays"
-	"main/sorting"
+	"main/arrays"
+	// "main/sorting"
 	// stringsf "main/strings"
 
 	// binarysearch "main/binary_search"
@@ -34,6 +34,7 @@ func main() {
 
 	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	// arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
+	arrays.TwoSum([]int{0,0,3,4}, 0)
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
@@ -47,7 +48,7 @@ func main() {
 	// fmt.Println(stringsf.IsIsomorphic("badc", "baba"))
 
 	// sorting.SortColors([]int{2,0,1,4,6,3,2,1,1,0,5,6,0,3})
-	sorting.FindTheDifference("abcd", "abcde")
+	// sorting.FindTheDifference("abcd", "abcde")
 }
 
 func createSlice(count int) []int {
