@@ -4,7 +4,7 @@ import (
 	"fmt"
 	// "main/arrays"
 	"main/sorting"
-	stringsf "main/strings"
+	// stringsf "main/strings"
 
 	// binarysearch "main/binary_search"
 	// digitsalgs "main/digits_algs"
@@ -44,9 +44,10 @@ func main() {
 	// fmt.Println(digitsalgs.MyPow(1.0000000000001, -2147483648))
 	// fmt.Println(digitsalgs.MyPow(2, 12))
 
-	fmt.Println(stringsf.IsIsomorphic("badc", "baba"))
+	// fmt.Println(stringsf.IsIsomorphic("badc", "baba"))
 
-	sorting.SortColors([]int{2,0,1,4,6,3,2,1,1,0,5,6,0,3})
+	// sorting.SortColors([]int{2,0,1,4,6,3,2,1,1,0,5,6,0,3})
+	sorting.FindTheDifference("abcd", "abcde")
 }
 
 func createSlice(count int) []int {
