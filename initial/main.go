@@ -50,7 +50,8 @@ func main() {
 	// sorting.SortColors([]int{2,0,1,4,6,3,2,1,1,0,5,6,0,3})
 	// sorting.FindTheDifference("abcd", "abcde")
 
-	arrays.MajorityElement([]int{3,2,3})
+	// arrays.MajorityElement([]int{3,2,3})
+	fmt.Println(arrays.MaximumPopulation([][]int{{1950, 1961}, {1960,1971}, {1970,1981}}))
 }
 
 func createSlice(count int) []int {
