@@ -34,7 +34,7 @@ func main() {
 
 	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	// arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
-	arrays.TwoSum([]int{0,0,3,4}, 0)
+	// arrays.TwoSum([]int{0, 0, 3, 4}, 0)
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
@@ -49,6 +49,8 @@ func main() {
 
 	// sorting.SortColors([]int{2,0,1,4,6,3,2,1,1,0,5,6,0,3})
 	// sorting.FindTheDifference("abcd", "abcde")
+
+	arrays.MajorityElement([]int{3,2,3})
 }
 
 func createSlice(count int) []int {
