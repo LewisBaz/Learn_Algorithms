@@ -51,7 +51,11 @@ func main() {
 	// sorting.FindTheDifference("abcd", "abcde")
 
 	// arrays.MajorityElement([]int{3,2,3})
-	fmt.Println(arrays.MaximumPopulation([][]int{{1950, 1961}, {1960,1971}, {1970,1981}}))
+	// fmt.Println(arrays.MaximumPopulation([][]int{{1950, 1961}, {1960,1971}, {1970,1981}}))
+	// fmt.Println(arrays.MaxDistance([]int{55, 30, 5, 4, 2}, []int{100, 20, 10, 10, 5}))
+	// fmt.Println(arrays.MaxDistance([]int{2, 2, 2}, []int{10, 10, 1}))
+	// fmt.Println(arrays.MaxDistance([]int{30, 29, 19, 5}, []int{25,25,25,25,25}))
+	fmt.Println(arrays.MaxDistance([]int{9820,8937,7936,4855,4830,4122,2327,1342,1167,815,414}, []int{9889,9817,9800,9777,9670,9646,9304,8977,8974,8802,8626,8622,8456}))
 }
 
 func createSlice(count int) []int {
