@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	// "main/arrays"
+	twopointers "main/arrays/two_pointers"
+
 	// "main/sorting"
 	// stringsf "main/strings"
 
@@ -36,6 +38,11 @@ func main() {
 	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	// arrays.MergeArrays([]int{1,2,4,6}, 4, []int{1,2,5,6,3}, 5)
 	// arrays.TwoSum([]int{0, 0, 3, 4}, 0)
+
+	// fmt.Println(arrays.Intersect([]int{4,9,5}, []int{9,4,9,8,4}))
+	// fmt.Println(arrays.Intersect([]int{1,2,2,1}, []int{2,2}))
+
+	twopointers.Run()
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
