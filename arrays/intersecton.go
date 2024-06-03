@@ -1,5 +1,7 @@
 package arrays
 
+// https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
+
 func Intersect(nums1 []int, nums2 []int) []int {
 	result := make([]int, 0)
 	inters := make(map[int]int,0)
