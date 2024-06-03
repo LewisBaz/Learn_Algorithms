@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	// "main/arrays"
+	floydstortoise "main/arrays/floyds_tortoise_hare"
 	twopointers "main/arrays/two_pointers"
 
 	// "main/sorting"
@@ -43,6 +44,7 @@ func main() {
 	// fmt.Println(arrays.Intersect([]int{1,2,2,1}, []int{2,2}))
 
 	twopointers.Run()
+	floydstortoise.Run()
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
