@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	// "main/arrays"
-	floydstortoise "main/arrays/floyds_tortoise_hare"
-	twopointers "main/arrays/two_pointers"
+	// floydstortoise "main/arrays/floyds_tortoise_hare"
+	// twopointers "main/arrays/two_pointers"
+	slidingwindow "main/sliding_window"
 
 	// "main/sorting"
 	// stringsf "main/strings"
@@ -43,8 +44,9 @@ func main() {
 	// fmt.Println(arrays.Intersect([]int{4,9,5}, []int{9,4,9,8,4}))
 	// fmt.Println(arrays.Intersect([]int{1,2,2,1}, []int{2,2}))
 
-	twopointers.Run()
-	floydstortoise.Run()
+	// twopointers.Run()
+	// floydstortoise.Run()
+	slidingwindow.Run()
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
