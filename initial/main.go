@@ -5,12 +5,12 @@ import (
 	// "main/arrays"
 	// floydstortoise "main/arrays/floyds_tortoise_hare"
 	// twopointers "main/arrays/two_pointers"
+	binarysearch "main/binary_search"
 	slidingwindow "main/sliding_window"
 
 	// "main/sorting"
 	// stringsf "main/strings"
 
-	// binarysearch "main/binary_search"
 	// digitsalgs "main/digits_algs"
 	// oneway "main/linked_lists/one_way"
 	hascycle "main/linked_lists/one_way/has_cycle"
@@ -33,8 +33,6 @@ func main() {
 
 	// oneway.Show()
 
-	// fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 2))
-	// fmt.Println(binarysearch.Search([]int{-1,0,3,5,9,12}, 9))
 	// nodeCycle()
 
 	// arrays.MergeArraysInAsc([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
@@ -47,6 +45,7 @@ func main() {
 	// twopointers.Run()
 	// floydstortoise.Run()
 	slidingwindow.Run()
+	binarysearch.Run()
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
