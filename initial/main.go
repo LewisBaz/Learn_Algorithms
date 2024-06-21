@@ -5,6 +5,7 @@ import (
 	// "main/arrays"
 	// floydstortoise "main/arrays/floyds_tortoise_hare"
 	// twopointers "main/arrays/two_pointers"
+	ars "main/arrays/arrays"
 	binarysearch "main/binary_search"
 	slidingwindow "main/sliding_window"
 
@@ -46,6 +47,7 @@ func main() {
 	// floydstortoise.Run()
 	slidingwindow.Run()
 	binarysearch.Run()
+	ars.Run()
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
