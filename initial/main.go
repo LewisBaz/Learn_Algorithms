@@ -5,9 +5,10 @@ import (
 	// "main/arrays"
 	// floydstortoise "main/arrays/floyds_tortoise_hare"
 	// twopointers "main/arrays/two_pointers"
-	ars "main/arrays/arrays"
-	binarysearch "main/binary_search"
-	slidingwindow "main/sliding_window"
+	// ars "main/arrays/arrays"
+	// binarysearch "main/binary_search"
+	"main/linked_lists"
+	// slidingwindow "main/sliding_window"
 
 	// "main/sorting"
 	// stringsf "main/strings"
@@ -45,9 +46,10 @@ func main() {
 
 	// twopointers.Run()
 	// floydstortoise.Run()
-	slidingwindow.Run()
-	binarysearch.Run()
-	ars.Run()
+	// slidingwindow.Run()
+	// binarysearch.Run()
+	// ars.Run()
+	linked_lists.Run()
 
 	// fmt.Println(stringsf.LengthOfLastWord("a "))
 
